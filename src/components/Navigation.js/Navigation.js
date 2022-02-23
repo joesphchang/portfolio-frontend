@@ -8,7 +8,7 @@ function Navigation() {
 	const handleOpen = () => setOpen(!open);
 
 	const closeMenu = () => setOpen(false);
-
+ 
 	return (
 		<div className='header'>
 			<nav className='navbar'>

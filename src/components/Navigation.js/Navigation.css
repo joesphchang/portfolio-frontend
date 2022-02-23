@@ -24,7 +24,6 @@
     color: #ffffff;
 }
 
-
 .header .nav-menu {
     display: flex;
 }
@@ -36,7 +35,7 @@
 
 .header .nav-item a:hover {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid maroon;
 }
 
 .hamburger {
@@ -46,6 +45,7 @@
 .logo {
     color: white;
 }
+
 
 @media screen and (max-width:940px) {
     .header {
@@ -81,4 +81,5 @@
     .nav-item {
         margin: 1.5rem 0;
     }
+
 }
