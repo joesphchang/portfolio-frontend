@@ -13,7 +13,7 @@ function Navigation() {
 		<div className='header'>
 			<nav className='navbar'>
 				<a href='/' className='logo'>
-					Joey Chang
+					<h1>Joey Chang</h1>
 				</a>
 				<div className='hamburger' onClick={handleOpen}>
 					{open ? (
