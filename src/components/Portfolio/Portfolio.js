@@ -1,6 +1,8 @@
 import React from 'react';
 import './Portfolio.css';
 import { useEffect, useState } from 'react';
+import LinkIcon from '../../assets/link-icon.png';
+import GithubIcon from '../../assets/github-icon.png';
 
 function Portfolio() {
 	const [details, setDetails] = useState([]);
@@ -22,9 +24,16 @@ function Portfolio() {
 							<li className='card-item'>
 								<img src={detail.image} alt='project info' />
 								<h3>{detail.title}</h3>
+								<span className='line'></span>
 								<p>{detail.description}</p>
-								<a href={detail.deployed_site}>Deployed Site</a>
-                                <a href={detail.github}>Github</a>
+								<div className='anchor-links'>
+									<a href={detail.deployed_site}>
+										<img src={LinkIcon} alt='link icon' className='linkIcon' />
+									</a>
+									<a href={detail.github}>
+										<img src={GithubIcon} alt='github icon' className='github-icon'/>
+									</a>
+								</div>
 							</li>
 						);
 					})}
