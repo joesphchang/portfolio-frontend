@@ -15,7 +15,7 @@ function Portfolio() {
 			});
 	}, []);
 	return (
-		<div className='detail-container'>
+		<div className='detail-container' id='projects'>
 			<h2>Projects</h2>
 			<div className='card-container'>
 				<ul className='card-list'>

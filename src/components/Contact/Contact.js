@@ -25,7 +25,7 @@ function Contact(props) {
 			);
 	};
 	return (
-		<div className='form'>
+		<div className='form' id='contact'>
 			<form ref={form} onSubmit={sendEmail} className='form-container'>
 				<div className='form-title'>
 					<h2>Contact Me</h2>

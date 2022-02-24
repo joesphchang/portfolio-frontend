@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navigation.css';
 import { useState } from 'react';
@@ -12,9 +13,15 @@ function Navigation() {
 	return (
 		<div className='header'>
 			<nav className='navbar'>
-				<a href='/' className='logo'>
-					<h1>Joey Chang</h1>
-				</a>
+				<Link
+					to='home'
+					spy={true}
+					smooth={true}
+					offset={-100}
+					duration={500}
+					className='logo'>
+					Joey Chang
+				</Link>
 				<div className='hamburger' onClick={handleOpen}>
 					{open ? (
 						<FaTimes size={30} style={{ color: '#ffffff' }} />
@@ -24,24 +31,48 @@ function Navigation() {
 				</div>
 				<ul className={open ? 'nav-menu active' : 'nav-menu'}>
 					<li className='nav-item'>
-						<a href='/' onClick={closeMenu}>
+						<Link
+							to='home'
+							spy={true}
+							smooth={true}
+							offset={-100}
+							duration={500}
+							onClick={closeMenu}>
 							Home
-						</a>
+						</Link>
 					</li>
 					<li className='nav-item'>
-						<a href='#about' onClick={closeMenu}>
+						<Link
+							to='about'
+							spy={true}
+							smooth={true}
+							offset={-90}
+							duration={500}
+							onClick={closeMenu}>
 							About
-						</a>
+						</Link>
 					</li>
 					<li className='nav-item'>
-						<a href='#projects' onClick={closeMenu}>
+						<Link
+							to='projects'
+							spy={true}
+							smooth={true}
+							offset={-100}
+							duration={500}
+							onClick={closeMenu}>
 							Projects
-						</a>
+						</Link>
 					</li>
 					<li className='nav-item'>
-						<a href='#contact' onClick={closeMenu}>
+						<Link
+							to='contact'
+							spy={true}
+							smooth={true}
+							offset={-90}
+							duration={500}
+							onClick={closeMenu}>
 							Contact
-						</a>
+						</Link>
 					</li>
 				</ul>
 			</nav>

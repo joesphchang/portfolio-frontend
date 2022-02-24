@@ -65,3 +65,8 @@
 .form-icons {
     margin-top: 25px; 
 }
+
+.form-icons a {
+    margin: 20px;
+    font-size: 48px;
+}
