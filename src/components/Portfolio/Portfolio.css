@@ -1,0 +1,24 @@
+.detail-container {
+    background-color: #171717;
+    width: 100%;
+    height: 100%;
+}
+
+.detail-container h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 48px;
+}
+.card-item img {
+    width: 50%;
+}
+
+.card-item {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px 20px;
+}
