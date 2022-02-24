@@ -27,11 +27,21 @@ function Portfolio() {
 								<span className='line'></span>
 								<p>{detail.description}</p>
 								<div className='anchor-links'>
-									<a href={detail.deployed_site}>
+									<a
+										href={detail.deployed_site}
+										rel='noopener noreferrer'
+										target='_blank'>
 										<img src={LinkIcon} alt='link icon' className='linkIcon' />
 									</a>
-									<a href={detail.github}>
-										<img src={GithubIcon} alt='github icon' className='github-icon'/>
+									<a
+										href={detail.github}
+										rel='noopener noreferrer'
+										target='_blank'>
+										<img
+											src={GithubIcon}
+											alt='github icon'
+											className='github-icon'
+										/>
 									</a>
 								</div>
 							</li>
