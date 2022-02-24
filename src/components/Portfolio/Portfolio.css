@@ -46,3 +46,9 @@
 	background-color: whitesmoke;
 	border-radius: 5px;
 }
+
+@media screen and (max-width: 940px) {
+	img:first-child {
+		width: 85%;
+	}
+}

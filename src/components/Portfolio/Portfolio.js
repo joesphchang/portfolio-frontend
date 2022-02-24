@@ -22,7 +22,7 @@ function Portfolio() {
 					{details.map((detail) => {
 						return (
 							<li className='card-item'>
-								<img src={detail.image} alt='project info' />
+								<img src={detail.image} alt='project info' className='detail-image' />
 								<h3>{detail.title}</h3>
 								<span className='line'></span>
 								<p>{detail.description}</p>
