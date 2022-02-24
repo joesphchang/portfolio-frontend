@@ -55,3 +55,9 @@
 .content a:hover {
 	color: maroon;
 }
+
+@media screen and (max-width: 940px) {
+    .content h1 {
+        margin-top: 275px;
+    }
+}

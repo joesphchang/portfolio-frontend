@@ -4,7 +4,7 @@ import './Hero.css';
 
 function Hero() {
 	return (
-		<div className='hero'>
+		<div className='hero' id='home'>
 				<video autoPlay loop muted className='hero-bg'>
 					<source src={backgroundVideo} type='video/mp4'></source>
 				</video>
