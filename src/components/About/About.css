@@ -54,6 +54,10 @@
     margin-top: 25px;
 }
 
+.colored {
+    margin: 10px;
+}
+
 /* Media Queries  */
 @media screen and (max-width: 940px) {
     .container {
@@ -79,6 +83,10 @@
         margin-top: 10px;
     }
     .icons {
-        width: 300px;
+        width: 250px;
+        font-size: 40px;
     }
+    .colored {
+    margin: 3px;
+}
 }
