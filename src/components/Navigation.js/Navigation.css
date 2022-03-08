@@ -44,6 +44,7 @@
 
 .logo {
     color: white;
+    font-size: 28px;
 }
 
 
@@ -80,6 +81,9 @@
 
     .nav-item {
         margin: 1.5rem 0;
+    }
+    .logo {
+        font-size: 24px;
     }
 
 }
