@@ -51,4 +51,14 @@
 	img:first-child {
 		width: 85%;
 	}
+	.anchor-links img {
+		width: 40px;
+		margin: 5px;
+		padding: 0px 2px;
+	}
+	.anchor-links {
+		/* border: 2px solid red; */
+		display: flex;
+		justify-content: center;
+	}
 }

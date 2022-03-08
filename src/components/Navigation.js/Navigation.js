@@ -74,6 +74,14 @@ function Navigation() {
 							Contact
 						</Link>
 					</li>
+					<li className='nav-item'>
+						<a
+							href='https://docs.google.com/document/d/1EKujWp8x3uI6yy_Rl6EGJ_S7iPK-4S5UodDy6vIcLYM/edit?usp=sharing'
+							target='_blank'
+							rel='noreferrer'>
+							Resume
+						</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
