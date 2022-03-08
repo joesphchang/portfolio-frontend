@@ -1,13 +1,11 @@
 import React from 'react';
-import backgroundVideo from '../../assets/drapes.mp4';
+import BackgroundImage from '../../assets/hero-image.jpg';
 import './Hero.css';
 
 function Hero() {
 	return (
 		<div className='hero' id='home'>
-			<video autoPlay loop muted className='hero-bg'>
-				<source src={backgroundVideo} type='video/mp4'></source>
-			</video>
+			<img src={BackgroundImage} alt='background' className='hero-bg' />
 			<div className='content'>
 				<h1>Joey Chang</h1>
 				<a
