@@ -21,24 +21,17 @@
     padding: 0 1rem;
 }
 
-.header .nav-menu a {
+.header, .nav-menu a {
     color: rgba(0, 0, 0, 0.9);
     font-family: 'Manrope';
 }
 
-.header .nav-menu {
-    display: flex;
-}
 
-.header .nav-item {
+.header, .nav-item {
     padding: 1rem;
     font-weight: 500;
 }
 
-.header .nav-item a:hover {
-    padding-bottom: 12px;
-    border-bottom: 3px solid #1E66D2;
-}
 
 .header .nav-item a:active {
     color: #1E66D2;
@@ -51,7 +44,7 @@
 .logo {
     color: rgb(30, 30, 30);
     font-size: 28px;
-    font-family: 'Volkhov' sans-serif;
+    font-family: 'Vollkorn', serif;
 }
 
 
