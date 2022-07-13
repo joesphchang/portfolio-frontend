@@ -2,8 +2,6 @@
     position: fixed;
     height: 90px;
     width: 100%;
-    top: 0;
-    left: 0;
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
@@ -26,14 +24,25 @@
     font-family: 'Manrope';
 }
 
+.header .nav-menu {
+    display: flex;
+}
+
 
 .header, .nav-item {
     padding: 1rem;
     font-weight: 500;
 }
 
+.header .nav-item a:hover {
+    color: #1E66D2;
+}
 
 .header .nav-item a:active {
+    color:rgb(161, 161, 161);
+}
+
+.header .nav-item a.active {
     color: #1E66D2;
 }
 

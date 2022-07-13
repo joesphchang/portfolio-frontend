@@ -18,7 +18,7 @@ function About() {
 						level.
 					</p>
 					<p>
-						My passion for Web Development led me to attend a bootcamp called
+						My passion for Front End Engineer led me to attend a bootcamp called
 						'General Assembly' and turn into a software engineer. The
 						opportunity to create an optimal experience for every user is a
 						privilege.
