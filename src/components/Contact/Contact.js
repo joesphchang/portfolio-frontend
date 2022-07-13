@@ -1,68 +1,39 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React from 'react';
 import './Contact.css';
 import { BiNotepad } from 'react-icons/bi';
 
 function Contact(props) {
-	const form = useRef();
-
-	const sendEmail = (e) => {
-		e.preventDefault();
-
-		emailjs
-			.sendForm(
-				'service_21en2lr',
-				'template_zwy52a7',
-				form.current,
-				'user_VYIsbxWvtTSOtRNEBLSol'
-			)
-			.then(
-				(result) => {
-					console.log(result.text);
-				},
-				(error) => {
-					console.log(error.text);
-				}
-			);
-	};
 	return (
-		<div className='form' id='contact'>
-			<form ref={form} onSubmit={sendEmail} className='form-container'>
-				<div className='form-title'>
-					<h2>Contact Me</h2>
-					<span className='line'></span>
-				</div>
-				<label className='label'>Name</label>
-				<input type='text' name='user_name' className='input' />
-				<label className='label'>Email</label>
-				<input type='email' name='user_email' className='input' />
-				<label className='label'>Message</label>
-				<textarea name='message' className='message-input' />
-				<input type='submit' value='Send' className='submit-btn' />
-			</form>
-			<div className='social-links'>
-				<h3>Portfolio</h3>
-				<span className='line'></span>
-				<div className='form-icons'>
-					<a
-						href='https://www.linkedin.com/in/joesphchang/'
-						rel='noopener noreferrer'
-						target='_blank'>
-						<i class='devicon-linkedin-plain colored'></i>
-					</a>
-					<a
-						href='https://github.com/joesphchang'
-						rel='noopener noreferrer'
-						target='_blank'>
-						<i class='devicon-github-original-wordmark'></i>
-					</a>
-					<a
-						href='https://docs.google.com/document/d/1EKujWp8x3uI6yy_Rl6EGJ_S7iPK-4S5UodDy6vIcLYM/edit?usp=sharing'
-						target='_blank'
-						rel='noreferrer'>
-						<BiNotepad />
-					</a>
-				</div>
+		<div className='contact-container' id='contact'>
+			<div className='contact-text'>
+				<h2 className='contact-header'>Get In Touch</h2>
+				<p>
+					I’m on the hunt for an opporunity to showcase my skills and contribute
+					to a great company. If you have any questions or want to say hi, I’ll
+					try and best to get back to you quickly as possible.{' '}
+				</p>
+			</div>
+			<div className='anchor-box'>
+				<a className='anchor-text' href='mailto:joesphschang@gmail.com'>
+					Say Hello
+				</a>
+			</div>
+
+			<div className='contact-icons'>
+				<a
+					className='contact-links'
+					href='https://www.linkedin.com/in/joesphchang/'
+					rel='noopener noreferrer'
+					target='_blank'>
+					<i class='devicon-linkedin-plain'></i>
+				</a>
+				<a
+					className='contact-links'
+					href='https://github.com/joesphchang'
+					rel='noopener noreferrer'
+					target='_blank'>
+					<i class='devicon-github-original-wordmark'></i>
+				</a>
 			</div>
 		</div>
 	);
