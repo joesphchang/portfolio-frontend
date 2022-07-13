@@ -20,13 +20,13 @@ function Navigation() {
 					offset={-100}
 					duration={500}
 					className='logo'>
-					Joey Chang
+					JC.
 				</Link>
 				<div className='hamburger' onClick={handleOpen}>
 					{open ? (
-						<FaTimes size={30} style={{ color: '#ffffff' }} />
+						<FaTimes size={30} style={{ color: '#000000' }} />
 					) : (
-						<FaBars size={30} style={{ color: '#ffffff' }} />
+						<FaBars size={30} style={{ color: '#000000' }} />
 					)}
 				</div>
 				<ul className={open ? 'nav-menu active' : 'nav-menu'}>
