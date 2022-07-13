@@ -9,36 +9,37 @@ function About() {
 				<img src={Hero} alt='joey' />
 				<div className='text-container'>
 					<h2>About Me</h2>
-					<span className='line'></span>
 					<p>
-						Born in Atlanta and raised in Wisconsin, I recently moved back to
-						the big A to start a career in Photography. From being flown-out to
-						different parts of the country, streetwear & fashion brand
-						recognition, and big fashion outlets I was hungry for more. I wanted to pursue a career in Software Engineering to
-						take my creative perspective into a new realm. I’ve always had the
-						knack for technology and web-developing. Moving into a career like
-						software engineer allows me a new creative outlet.
+						Talented visual artist transitioned into Front-End Developer. For
+						the last few months, I have lived in Arlington, VA, and moved from
+						Atlanta, GA. I am looking to contribute life-long skills, including
+						attention to detail, creative direction, and is an excellent team
+						player, in order to achieve and scale applications to the next
+						level.
 					</p>
-					<div className='icon-container'>
-						<h2>Skills</h2>
-						<span className='line'></span>
-						<div className='icons'>
-							<i class='devicon-html5-plain-wordmark colored'></i>
-							<i class='devicon-css3-plain-wordmark colored'></i>
-							<i class='devicon-javascript-plain colored'></i>
-							<i class='devicon-python-plain-wordmark colored'></i>
-							<i class='devicon-react-original-wordmark colored'></i>
-							<i class='devicon-bootstrap-plain-wordmark colored'></i>
-							<i class='devicon-mongodb-plain-wordmark colored'></i>
-							<i class='devicon-django-plain-wordmark colored'></i>
-							<i class='devicon-postgresql-plain-wordmark colored'></i>
-							<i class='devicon-github-original-wordmark'></i>
-							<i class='devicon-git-plain-wordmark colored'></i>
-							<i class='devicon-heroku-original-wordmark colored'></i>
-							<i class='devicon-nodejs-plain colored'></i>
-							<i class='devicon-npm-original-wordmark colored'></i>
-							<i class='devicon-figma-plain colored'></i>
-						</div>
+					<p>
+						My passion for Web Development led me to attend a bootcamp called
+						'General Assembly' and turn into a software engineer. The
+						opportunity to create an optimal experience for every user is a
+						privilege.
+					</p>
+					<p>
+						I am currently focused on developing user-friendly projects and
+						practicing the languages I have acquired.
+					</p>
+
+					<div className='technology-container'>
+						<h5>
+							Here are a few technologies I've been working with recently:
+						</h5>
+						<ul className='list-of-technologies'>
+							<li className='list-text'>☼ JavaScript (ES6+)</li>
+							<li className='list-text'>☼ React</li>
+							<li className='list-text'>☼ Node.JS</li>
+							<li className='list-text'>☼ MongoDB</li>
+							<li className='list-text'>☼ WordPress</li>
+							<li className='list-text'>☼ PostgresSQL</li>
+						</ul>
 					</div>
 				</div>
 			</div>
