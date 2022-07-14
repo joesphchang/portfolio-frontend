@@ -8,7 +8,7 @@ function About() {
 			<div className='container'>
 				<img src={Hero} alt='joey' />
 				<div className='text-container'>
-					<h2>About Me</h2>
+					<h2 className='about-header'><span className='header-line'>―</span> About Me</h2>
 					<p>
 						Talented visual artist transitioned into Front-End Developer. For
 						the last few months, I have lived in Arlington, VA, and moved from

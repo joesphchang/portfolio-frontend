@@ -34,13 +34,23 @@
 
 /* Text Container */
 .text-container {
-    width: 600px;
-    margin-left: 50px;
+    width: 800px;
+    height: 700px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.text-container h2 {
+    font-size: 48px;
+    width: 300px;
 }
 
 .text-container p {
     margin-top: 15px;
     font-family: 'Manrope';
+    font-size: 22px;
+    margin-bottom: 30px;
+
 }
 
 .technology-container {
@@ -48,6 +58,26 @@
     font-weight: 400;
     font-style: normal;
     line-height: 20px;
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+.list-of-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+}
+
+.list-of-technologies, h5 {
+    font-size: 25px;
+}
+
+.header-line {
+    color: black;
+}
+
+.list-text {
+    margin: 20px 5px;
 }
 
 /* Media Queries  */
@@ -63,19 +93,23 @@
         text-align: left;
         width: 100%;
         margin: 0;
+        height: 100%;
+        margin-bottom: 50px;
+        
     }
     .text-container p {
         font-size: 14px;
         width: 90%;
+        word-spacing: 0px;
+        margin-bottom: 5px;
     }
     .text-container p {
         margin-left: 25px;
     }
     .text-container h2 {
-        text-align: center;
-        border-bottom: .5px solid black;
-        width: 150px;
-        margin: 0 auto;
+        font-size: 28px;
+        width: 200px;
+        margin-left: 25px;
     }
     .container img {
         margin: 20px 0; 
@@ -95,14 +129,16 @@
         justify-content: center;
         flex-wrap: wrap;
         margin: 0 auto;
+        padding: 0;
     }
     .list-text {
         padding: 5px;
+        font-size: 16px;
+        margin: 0;
     }
     .technology-container h5 {
         width: 225px;
         font-size: 14px;
         margin: 0 auto;
     }
-
 }
