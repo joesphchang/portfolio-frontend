@@ -6,7 +6,7 @@ function Contact(props) {
 		<div className='contact-container' id='contact'>
 			<div className='contact-text'>
 				<h2 className='contact-header'>Get In Touch</h2>
-				<p>
+				<p className='contact-paragraph'>
 					I’m on the hunt for an opporunity to showcase my skills and contribute
 					to a great company. If you have any questions or want to say hi, I’ll
 					try and best to get back to you quickly as possible.{' '}

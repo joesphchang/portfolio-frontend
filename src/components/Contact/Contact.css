@@ -1,17 +1,64 @@
+.contact-container {
+	width: 100%;
+	height: 70vh;
+}
+
+.contact-text {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 250px;
+	margin-bottom: 25px;
+}
+
+.contact-header {
+	color: #1E66D2;
+	font-size: 48px;
+}
+
+.contact-paragraph {
+	width: 700px;
+	font-size: 28px;
+}
+
+.anchor-box {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
 .anchor-text {
-	background:
-			linear-gradient(90deg, #fff 50%, var(--c) 0) calc(100% - var(--_p, 0%)) / 200%,
-			linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) no-repeat,
-			var(--_c, #0000);
-		-webkit-background-clip: text, padding-box, padding-box;
-		background-clip: text, padding-box, padding-box;
-		transition: 0s, color .5s, background-color .5s;
+	border: .5px solid #1E66D2;
+	border-radius: 3%;
+	padding: 15px;
+	font-size: 28px;
+}
+
+.contact-icons, a {
+	text-align: center;
+}
+
+.contact-links {
+	color: black;
+	font-size: 56px;
+	margin: 15px;
+}
+
+.anchor-text {
+	border: 8px solid;
+	border-image: repeating-linear-gradient(135deg, #298bf4 0 10px, #e4c29c 0 20px, #63cf63 0 30px) 8;
+	-webkit-mask: conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%)/var(--_i, 8px) 200% border-box no-repeat, linear-gradient(#000 0 0) padding-box no-repeat; 
+	transition: .3s, -webkit-mask-position .3s .3s;
 }
 
 .anchor-text:hover {
-	--_c: var(--c);
-		--_p: 100%;
-		transition: 0.5s, color 0s .5s, background-color 0s .5s;
+	--_i: 100%;
+		color: #CC333F;
+		transition: .3s, -webkit-mask-size .3s .3s;
+}
+
+.contact-links:hover {
+	color: #CC333F;
 }
 
 @media screen and (max-width: 940px) {
@@ -21,17 +68,30 @@
 	
 	.contact-container {
 		width: 100%;
+		height: 40vh;
+		margin-bottom: 15px;
 	}
 	
 	.contact-text {
 		width: 100%;
 		padding: 25px 25px;
 		text-align: center;
+		margin: 0;
+	}
+
+	.contact-header {
+		font-size: 22px;
+	}
+
+	.contact-paragraph {
+		width: 100%;
+		font-size: 18px;
 	}
 
 	.anchor-text {
 		border: .5px solid #1E66D2;
 		padding: 5px;
+		font-size: 16px;
 	}
 
 	.anchor-box {
@@ -53,5 +113,6 @@
 	.contact-links {
 		font-size: 28px;
 		padding: 5px;
+		margin: 10px;
 	}
 }
