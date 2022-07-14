@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import { BiNotepad } from 'react-icons/bi';
 
 function Contact(props) {
 	return (
