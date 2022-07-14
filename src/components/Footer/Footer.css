@@ -1,0 +1,21 @@
+.footer-container {
+    width: 100%;
+    padding: 50px;
+}
+
+.footer-header {
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 14px;
+}
+
+@media screen and (max-width: 940px) {
+    .footer-container {
+        width: 100%;
+        padding: 50px;
+        text-align: center;
+    }
+    .footer-header {
+        font-size: 12px;
+    }
+}

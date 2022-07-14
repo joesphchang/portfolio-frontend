@@ -16,16 +16,21 @@ function Portfolio() {
 	}, []);
 	return (
 		<div className='detail-container' id='projects'>
-			<h2>Projects</h2>
+				<h2>Some Things I've Built</h2>
 			<div className='card-container'>
 				<ul className='card-list'>
 					{details.map((detail) => {
 						return (
 							<li className='card-item'>
-								<img src={detail.image} alt='project info' className='detail-image' />
-								<h3>{detail.title}</h3>
-								<span className='line'></span>
-								<p>{detail.description}</p>
+								<img
+									src={detail.image}
+									alt='project info'
+									className='detail-image'
+								/>
+								<h3 className='card-header'>Featured Project</h3>
+								<h4 className='card-title'>{detail.title}</h4>
+								<p className='card-description'>{detail.description}</p>
+								<p className='card-created'>{detail.created}</p>
 								<div className='anchor-links'>
 									<a
 										href={detail.deployed_site}
