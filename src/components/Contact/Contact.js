@@ -8,8 +8,8 @@ function Contact(props) {
 				<h2 className='contact-header'>Get In Touch</h2>
 				<p className='contact-paragraph'>
 					I’m on the hunt for an opportunity to showcase my skills and contribute
-					to a great company. If you have any questions or want to say hi, I’ll
-					try and best to get back to you quickly as possible.{' '}
+					to a great company. If you have any questions or want to say hi, click "Say Hello". I’ll
+					try my best to get back to you quickly as possible.{' '}
 				</p>
 			</div>
 			<div className='anchor-box'>
