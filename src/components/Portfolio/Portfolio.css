@@ -82,7 +82,7 @@
 	}
 
 	.detail-image {
-		width: 350px;
+		width: 300px;
 		height: 250px;
 		margin: 0 auto;
 	}
@@ -111,7 +111,7 @@
 
 	.detail-headliner {
 		text-align: left;
-		width: 350px;
+		width: 300px;
 		margin-top: 15px;
 		font-size: 25px;
 		margin-left: 25px;
@@ -156,7 +156,7 @@
 
 	.card-created {
 		padding: 5px;
-		width: 350px;
+		width: 300px;
 		margin: 0 auto;
 	}
 }
