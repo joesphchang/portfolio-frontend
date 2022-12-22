@@ -4,18 +4,16 @@ import { useEffect, useState } from 'react';
 import LinkIcon from '../../assets/link-icon.png';
 import GithubIcon from '../../assets/github-icon.png';
 import { FaLink, FaGithub } from 'react-icons/fa';
-
+import dataInfo from '../../portfolio_data.json';
 
 function Portfolio() {
 	const [details, setDetails] = useState([]);
 
+	const fetchIconData = () => Promise.resolve(() => dataInfo);
 	useEffect(() => {
-		fetch('https://jojos-portfolio.herokuapp.com/api/portfolios')
-			.then((res) => res.json())
-			.then((res) => {
-				setDetails(res);
-			});
+		fetchIconData().then((jsonData) => setDetails(jsonData));
 	}, []);
+	
 	return (
 		<div className='detail-container' id='projects'>
 			<h2 className='detail-headliner'>
