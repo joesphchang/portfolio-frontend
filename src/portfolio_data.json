@@ -1,0 +1,38 @@
+[    
+    {
+        "title": "Build Your Own Bar",
+        "image": "https://media.giphy.com/media/guqgBhab2dnn5HGO36/giphy.gif",
+        "description": "BYOBar was designed by three developers who have a passion for connecting with others and making people feel like they're part of the family. With our app, we are able to give that experience to you, the user, and you are always able to show off your style and preferences in cocktail form!",
+        "created": "React, Django, Python, CSS, Bootstrap",
+        "deployed": "Netlify and Heroku",
+        "deployed_site": "https://buildyourownbar.netlify.app/",
+        "github": "https://github.com/build-your-own-bar/front-end-react"
+    },
+    {
+        "title": "The Watson",
+        "image": "https://media.giphy.com/media/eooxvNjZTSA54hfnGb/giphy.gif",
+        "description": "The Watson is an open source, blog style website with support for text and images. Free from intrusive advertisements and clunky UI's, The Watson is the place where you can shout to the masses and be heard. Keeping mantra free, every article is able viewable, editable, and removable by all logged in users.",
+        "created": "React, CSS, JavaScript, HTML",
+        "deployed": "Netlify and Heroku",
+        "deployed_site": "https://the-watson.netlify.app/",
+        "github": "https://github.com/watson-project"
+    },
+    {
+        "title": "Chicago Art Institute Gallery",
+        "image": "https://media.giphy.com/media/iw2V4PtO8pWCJx0D6h/giphy.gif",
+        "description": "The website I made is an online gallery walk-through of the Art Institute of Chicago. I was inspired by the artwork that is always showcased throughout the museum itself when I use to visit as a child. You are able to view certain artwork throughout the website that will give you details of the artist and the history of the art piece.",
+        "created": "React, CSS, JavaScript",
+        "deployed": "Netlify",
+        "deployed_site": "https://articjc.netlify.app/",
+        "github": "https://github.com/joesphchang/chicago-art-gallery"
+    },
+    {
+        "title": "Space Cat",
+        "image": "https://media.giphy.com/media/agCuFMLcJgG1e8OkFf/giphy.gif",
+        "description": "A web-browser game developed for users to experience Space Cat! It's a word guessing game that has a on-web keyboard that directly tells you whether you got the letter right or wrong.",
+        "created": "HTML, CSS, JavaScript",
+        "deployed": "Github",
+        "deployed_site": "https://joesphchang.github.io/space-cat/#",
+        "github": "https://github.com/joesphchang/space-cat"
+    }
+]
