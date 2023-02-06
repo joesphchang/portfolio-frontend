@@ -10,7 +10,7 @@ function Hero() {
 					<h1 className='hero-main-header'>
 						<span className='header-line'>―</span>Hi, I am Joey Chang
 					</h1>
-					<h2 className='hero-sub-header'>Front End Developer</h2>
+					<h2 className='hero-sub-header'>Software Engineer</h2>
 				</div>
 
 				<div className='right-content'>

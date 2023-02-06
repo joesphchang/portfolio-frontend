@@ -13,14 +13,13 @@ function About() {
 					</h2>
 					<p>
 						Hello! My name is Joey Chang and I am a talented visual artist
-						transitioned into Front-End Developer. For the last few months, I
-						have lived in Arlington, VA, and moved from Atlanta, GA. I am
+						transitioned into Front-End Developer. I am
 						looking to contribute life-long skills, including attention to
 						detail, creative direction, and is an excellent team player, in
 						order to achieve and scale applications to the next level.
 					</p>
 					<p>
-						My passion for Front End Engineer led me to attend a bootcamp called
+						My passion for Software Engineering led me to attend a bootcamp called
 						'General Assembly' and turn into a software engineer. By doing so,
 						I'm able to explore new creative avenues. Furthermore, it gives me
 						the opportunity to provide every user with the best possible
