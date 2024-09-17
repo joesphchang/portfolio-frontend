@@ -12,22 +12,18 @@ function About() {
 						<span className='header-line'>―</span> About Me
 					</h2>
 					<p>
-						Hello! My name is Joey Chang and I am a talented visual artist
-						transitioned into Front-End Developer. I am
-						looking to contribute life-long skills, including attention to
-						detail, creative direction, and is an excellent team player, in
-						order to achieve and scale applications to the next level.
+						Hello! I’m Joey Chang, a visual artist turned web developer. My
+						journey started at the General Assembly bootcamp and is now
+						advancing with an Associate Degree in IT - Web Software Development
+						from Madison College. My artistic background enriches my technical
+						skills, allowing me to approach projects with creativity and
+						precision.
 					</p>
 					<p>
-						My passion for Software Engineering led me to attend a bootcamp called
-						'General Assembly' and turn into a software engineer. By doing so,
-						I'm able to explore new creative avenues. Furthermore, it gives me
-						the opportunity to provide every user with the best possible
-						experience.
-					</p>
-					<p>
-						I am currently focused on developing user-friendly projects and
-						practicing the languages I have acquired.
+						I’m passionate about creating user-friendly experiences and
+						continually improving my skills. Each project lets me blend my
+						artistic vision with innovative solutions, aiming to deliver
+						exceptional and engaging web experiences.
 					</p>
 
 					<div className='technology-container'>
@@ -39,8 +35,8 @@ function About() {
 							<li className='list-text'>☼ React</li>
 							<li className='list-text'>☼ Node.JS</li>
 							<li className='list-text'>☼ MongoDB</li>
-							<li className='list-text'>☼ WordPress</li>
-							<li className='list-text'>☼ PostgresSQL</li>
+							<li className='list-text'>☼ HTML/CSS</li>
+							<li className='list-text'>☼ mySQL</li>
 						</ul>
 					</div>
 				</div>
