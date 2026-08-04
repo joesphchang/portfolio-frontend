@@ -12,31 +12,30 @@ function About() {
 						<span className='header-line'>―</span> About Me
 					</h2>
 					<p>
-						Hello! I’m Joey Chang, a visual artist turned web developer. My
-						journey started at the General Assembly bootcamp and is now
-						advancing with an Associate Degree in IT - Web Software Development
-						from Madison College. My artistic background enriches my technical
-						skills, allowing me to approach projects with creativity and
-						precision.
+						Hello! I’m Joey Chang, a former brand and runway photographer turned
+						front-end software engineer. My journey into tech began at General
+						Assembly and is currently expanding with an Associate Degree in IT -
+						Web Software Development from Madison College. My background behind
+						the lens deeply influences how I code—it trained my eye for
+						composition, accessibility, and the fine details of user
+						interaction.
 					</p>
 					<p>
-						I’m passionate about creating user-friendly experiences and
-						continually improving my skills. Each project lets me blend my
-						artistic vision with innovative solutions, aiming to deliver
-						exceptional and engaging web experiences.
+						I am passionate about bridging the gap between that artistic vision
+						and robust, scalable architecture to deliver highly engaging web
+						experiences.
 					</p>
-
 					<div className='technology-container'>
 						<h5>
 							Here are a few technologies I've been working with recently:
 						</h5>
 						<ul className='list-of-technologies'>
 							<li className='list-text'>☼ JavaScript (ES6+)</li>
-							<li className='list-text'>☼ React</li>
-							<li className='list-text'>☼ Node.JS</li>
-							<li className='list-text'>☼ MongoDB</li>
-							<li className='list-text'>☼ HTML/CSS</li>
-							<li className='list-text'>☼ mySQL</li>
+							<li className='list-text'>☼ React & Next.js</li>
+							<li className='list-text'>☼ Java & Python</li>
+							<li className='list-text'>☼ Node.js & Django</li>
+							<li className='list-text'>☼ HTML/CSS (Material UI)</li>
+							<li className='list-text'>☼ AWS & Relational DBs</li>
 						</ul>
 					</div>
 				</div>
