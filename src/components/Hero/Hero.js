@@ -15,9 +15,9 @@ function Hero() {
 
 				<div className='right-content'>
 					<p className='hero-main-paragraph'>
-						I create inclusive, accessible digital websites. I believe in using
-						web-developing as a tool to elevate human interaction with
-						technology that scale.
+						I build inclusive, accessible digital experiences. I believe in
+						using web development as a tool to elevate human interaction with
+						technology that scales.
 					</p>
 				</div>
 			</div>

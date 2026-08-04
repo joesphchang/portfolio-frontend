@@ -1,162 +1,149 @@
+/* --- Base Container --- */
 .detail-container {
 	width: 100%;
-	margin-top: 75px;
+	padding-top: 150px;
+	background-color: #ffffff;
+}
+
+.detail-content-wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 25px;
+	/* Ensures text doesn't touch the edges on smaller screens */
 }
 
 .detail-headliner {
 	color: #1E66D2;
 	font-size: 48px;
-	margin-left: 110px;
 	margin-bottom: 75px;
-}
-
-.detail-image {
-	width: 850px;
-	height: 600px;
-	margin-left: 75px;
-}
-
-.card-item {
-	color: rgb(17, 16, 16);
-	margin-bottom: 100px;
-	font-size: 1.2rem;
-	display: flex;
-	text-align: left;
-}
-
-.card-description-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 50px;
-}
-
-.card-header {
-	font-size: 20px;
-}
-
-.card-title {
-	font-size: 42px;
-	color: #1E66D2;
-	margin-bottom: 15px;
-	border-bottom: .5px solid black;
-}
-
-.card-created {
-	width: 400px;
-	text-align: center;
-	border: .5px solid rgb(180, 180, 180);
-	padding: 15px;
-	margin-top: 35px;
-}
-
-.card-description {
-	width: 600px;
-	font-size: 24px;
-}
-
-.card-header, .card-title {
 	font-family: 'Vollkorn', serif;
 }
 
-.anchor-links {
-	display: flex;
-	margin-top: 10px;
+.header-line {
+	color: #000000;
 }
 
+/* --- Project Cards --- */
+.card-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+	/* Handles spacing between projects cleanly */
+}
+
+.card-item {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	border-top: 2px solid #000000;
+	padding-top: 30px;
+}
+
+/* --- Header Row & Typography --- */
+.card-header-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.card-header {
+	font-family: 'Manrope', sans-serif;
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 5px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.card-title {
+	font-family: 'Vollkorn', serif;
+	font-size: 42px;
+	color: #1E66D2;
+	margin: 0;
+}
+
+/* --- Content & Tags --- */
+.card-description-container {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.card-description {
+	font-family: 'Manrope', sans-serif;
+	font-size: 20px;
+	line-height: 1.6;
+	color: #333333;
+	max-width: 800px;
+	margin: 0;
+}
+
+.card-created {
+	font-family: 'Manrope', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: #1E66D2;
+	background-color: #f0f4f8;
+	padding: 10px 20px;
+	border-radius: 4px;
+	display: inline-block;
+	align-self: flex-start;
+	/* Prevents the box from stretching the full width of the container */
+	border: 1px solid #d0e1f9;
+}
+
+/* --- Links --- */
+.anchor-links {
+	display: flex;
+	gap: 20px;
+}
 
 .anchor-icon-link {
-	font-size: 50px;
-	color: black;
-	cursor: pointer;
-	margin: 15px;
+	font-size: 32px;
+	color: #000000;
+	transition: 0.2s ease;
 }
 
 .anchor-icon-link:hover {
 	color: #CC333F;
 }
 
+/* --- Mobile Media Queries --- */
 @media screen and (max-width: 940px) {
 	.detail-container {
-		margin-top: 15px;
-	}
-
-	.detail-image {
-		width: 300px;
-		height: 250px;
-		margin: 0 auto;
-	}
-
-	.anchor-icon-link {
-		width: 50px;
-		height: 50px;
-		margin: 0 auto;
-	}
-
-	.card-description-container {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		height: 100%;
-		margin: 0;
-	}
-
-	.anchor-links {
-		display: flex;
-		justify-content: center;
-		margin-top: 25px;
-		width: 100%;
-		font-size: 24px;
+		padding-top: 100px;
 	}
 
 	.detail-headliner {
-		text-align: left;
-		width: 300px;
-		margin-top: 15px;
-		font-size: 25px;
-		margin-left: 25px;
+		font-size: 32px;
+		margin-bottom: 50px;
+	}
+
+	.card-header-row {
+		flex-direction: column;
+		align-items: flex-start;
 	}
 
 	.card-title {
-		font-size: 24px;
-	}
-
-	.card-item {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.card-list {
-		width: 100%;
-	}
-
-	.card-header, .card-title {
-		width: 250px;
-		text-align: left; 
-		margin-left: 50px;
-	}
-
-	.card-header {
-		margin-top: 15px;
+		font-size: 32px;
 	}
 
 	.card-description {
-		text-align: left; 
-		width: 300px;
-		margin-top: 10px;
-		margin-bottom: 25px;
-		margin-left: 50px;
-		font-size: 18px;
+		font-size: 16px;
+	}
+
+	.anchor-icon-link {
+		font-size: 28px;
 	}
 
 	.card-created {
-		padding: 5px;
-		width: 300px;
-		margin: 0 auto;
+		font-size: 13px;
+		padding: 8px 16px;
 	}
 }

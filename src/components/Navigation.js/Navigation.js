@@ -76,7 +76,7 @@ function Navigation() {
 					</li>
 					<li className='nav-item'>
 						<a
-							href='https://docs.google.com/document/d/e/2PACX-1vRGbTj50grlhhvEcr9Qy4N1E4zGADWLjIYhiXTwydlRPxEksXPKv6vYMEtiaP9ldi59aX3F3EE0zGA7/pub'
+							href='https://docs.google.com/document/d/e/2PACX-1vSkrXS4jrh1KobREialJb_pgDmgYbBDsR_EIVYspQK_fjeIIhHINeVCK0bK7PEpbO047El6PdOYshxp/pub'
 							target='_blank'
 							rel='noreferrer'>
 							Resume
