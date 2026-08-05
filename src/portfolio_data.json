@@ -16,7 +16,7 @@
     "github": ""
   },
   {
-    "category": "Open Source Contribution",
+    "category": "Open Source Contribution / Professional Experience",
     "title": "Ionic Framework Docs",
     "description": "Contributed directly to the Ionic Framework open-source repository by triaging and resolving community-reported GitHub issues. Authored and published technical documentation to provide clear, accessible solutions for global developers.",
     "created": "Open Source ☼ Technical Writing ☼ GitHub ☼ React ☼ JavaScript",
@@ -40,20 +40,21 @@
     "github": "https://github.com/joesphchang/teamproj-vintage-arcade"
   },
   {
-    "category": "Personal Project",
+    "category": "Team Project",
     "title": "BYOBar",
     "description": "A full-stack cocktail application managing custom user inputs, recipe generation, and a responsive component-based UI.",
     "created": "React ☼ Django ☼ Python ☼ Bootstrap",
     "deployed_site": "https://buildyourownbar.netlify.app/",
     "github": "https://github.com/your-username/byobar"
   },
-    {
-        "title": "The Watson",
-        "image": "https://media.giphy.com/media/eooxvNjZTSA54hfnGb/giphy.gif",
-        "description": "An open-source, blog-style platform with full CRUD functionality. Designed with a clean, intrusive-free UI where authenticated users can securely view, create, edit, and remove content via a custom backend.",
-        "created": "React, MongoDB, Express.js, Node.js",
-        "deployed": "Netlify and Heroku",
-        "deployed_site": "https://the-watson.netlify.app/",
-        "github": "https://github.com/watson-project"
-    }
+  {
+    "category": "Team Project",
+    "title": "The Watson",
+    "image": "https://media.giphy.com/media/eooxvNjZTSA54hfnGb/giphy.gif",
+    "description": "An open-source, blog-style platform with full CRUD functionality. Designed with a clean, intrusive-free UI where authenticated users can securely view, create, edit, and remove content via a custom backend.",
+    "created": "React, MongoDB, Express.js, Node.js",
+    "deployed": "Netlify and Heroku",
+    "deployed_site": "https://the-watson.netlify.app/",
+    "github": "https://github.com/watson-project"
+  }
 ]
